@@ -32,34 +32,34 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [April 8, 2026, 4:30 PM]
+**What I did**:I downloaded the gitHub program and linked it visual Studio code
 
-**Details**: 
+**Details**: Download the program,log in ,and verify your information and university
 
-**Challenges**: 
+**Challenges**:Download and use the program 
 
-**Solution**: 
+**Solution**:watch the video tutorial on how to use it
 
-**Time spent**: 
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 45 minutes
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 2 - [April 10, 2026, 8:30 PM]
+**What I did**: Modify university Id number and add Rename your Repository
+
+**Details**: Opened the project files in the repository and updated the ID number Checked that all files are updated and saved properly
+
+**Challenges**: Had difficulty finding the correct place to update the ID and renaming the
+
+**Solution**: I watched a video and followed the steps
+
+**Time spent**: 25 minutes
+
+---
+
+### Entry 3 - [April 20, 2026, 3:30 PM]]
+**What I did**: add feature 1
 
 **Details**: 
 
@@ -67,7 +67,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Solution**: 
 
-**Time spent**: 
+**Time spent**: 30 minutes
 
 ---
 
