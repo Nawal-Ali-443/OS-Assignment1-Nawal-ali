@@ -111,10 +111,10 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [12 hours]
 
-**Most challenging part**: 
+**Most challenging part**:Understanding and Using the program 
 
-**Most interesting learning**: 
+**Most interesting learning**:Using the program  is easier and more efficient 
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Writing and modifying the code in a better way
