@@ -17,21 +17,24 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 ## Question 2: Ready Queue Behavior
 
-**Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
+**Question**:In Round-Robin scheduling, if a process does not finish within its time quantum, it is placed back at the end of the ready queue. This ensures that all processes get a fair share of CPU time and prevents starvation. For example, in the program output, you may see a process like P1 running for a short time and then being re-added to the queue with remaining time. This re-queuing behavior allows other processes to execute before P1 gets another turn. It is important because it maintains fairness and balanced CPU utilization among all processes.>> example from Your program output P1 added to ready queue
+? P1 executing quantum [5000ms] 
+  ? Quantum progress: [???????????????] 100%
+  ? P1 completed quantum 5000ms ? Overall progress: [????????????????????] 80%
+     Remaining time: 1199ms
+  ? P1 yields CPU for context switch
 
-**Your Answer:**
+  ? P1 added to ready queue ? Burst time: 6199ms
+?? Ready Queue ?????????????????????????????????????????????????????????????????
+? [P3 ? P4 ? P5 ? P6 ? P7 ? P8 ? P9 ? P10 ? P11 ? P12 ? P13 ? P14 ? P15 ? P16 ? P1]
+????????????????????????????????????????????????????????????????????????????????
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6c1e2a35-ab30-45bf-818b-7c82259ce10d" />
+Explain why this re-queueing behavior is important for fairness in CPU scheduling?
+Because  complete her work and not finished
 [Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
 
-Example from my output:
-```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
-```
 
-**Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
-
----
 
 ## Question 3: Thread States
 
