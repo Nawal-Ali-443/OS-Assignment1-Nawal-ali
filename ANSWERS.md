@@ -40,7 +40,7 @@ Because  complete her work and not finished
 
 **Question**: A thread can be in different states: **New**, **Runnable**, **Running**, **Waiting**, **Terminated**. Walk through these states for one process (P1) from your simulation.
 
-**Your Answer:**
+****
 
 [Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
@@ -53,7 +53,17 @@ Because  complete her work and not finished
 4. **Waiting**: [When/why would P1 be Waiting?]
 
 5. **Terminated**: [When is P1 Terminated?]
+New: P1 is in New state after new Thread(process) is called in addProcessToQueue(), creating the thread object before it starts.
 
+Runnable: P1 becomes Runnable when currentThread.start() is called in the main scheduling loop, making it ready for CPU execution.
+
+Running: P1 is Running when the OS scheduler selects it and begins executing the run() method, calculating runtime and processing its quantum.
+
+Waiting: P1 enters Timed-Waiting when Thread.sleep(stepTime) is called during execution to simulate work progress; the main thread also waits via currentThread.join() for P1 to complete.
+
+Terminated: P1 is Terminated when the run() method returns normally after completing its quantum or
+
+finishing entirely via runToCompletion().
 ---
 
 ## Question 4: Real-World Applications
