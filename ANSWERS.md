@@ -92,11 +92,13 @@ Round-Robin scheduling is ideal because it provides fair CPU access to all appli
 
 ## Summary
 
+
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. I understood the difference between threads and processes and why threads are more efficient for this assignment.
+ 2. I learned how Round-Robin scheduling works by giving each process a fixed time quantum and re-queuing unfinished processes.
+ 3. I understood the thread lifecycle and how threads move between different states during execution.
+ 
 
 **Concepts I need to study more:**
-1. 
-2. 
+ 1. Thread synchronization and how to avoid issues like race conditions.
+ 2. Other CPU scheduling algorithms and how they compare to Round-Robin in performance and efficiency.
