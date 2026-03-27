@@ -23,7 +23,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ## Question 3: How did you overcome the challenges you faced?
 
-**Your Answer:**
+**I overcame these challenges by breaking the problem into smaller steps and focusing on one feature at a time. I carefully read the starter code and tried to understand how each method works. I also tested the program multiple times after every change to make sure there were no errors. When I faced issues, I used debugging and added print statements to track execution. This step-by-step approach helped me solve problems and improve my understanding.**
 
 [Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
 
