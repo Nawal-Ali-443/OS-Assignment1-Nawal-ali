@@ -31,7 +31,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
-**Your Answer:**
+**Multithreading is widely used in real-world applications to improve performance and efficiency. For example, web servers use multiple threads to handle many user requests at the same time. It is also used in games where different threads manage graphics, sound, and user input simultaneously. In mobile applications, multithreading keeps the interface responsive while performing background tasks. Additionally, operating systems use scheduling algorithms like Round-Robin to manage processes fairly. These examples show how important multithreading is in modern software systems.**
 
 [Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
 
