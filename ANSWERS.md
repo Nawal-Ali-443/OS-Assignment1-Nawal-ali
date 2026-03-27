@@ -9,7 +9,7 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Question**: Explain the difference between a **thread** and a **process**. Why did we use threads in this assignment instead of creating separate processes?
 
-**Your Answer:**
+**A process is an independent program with its own memory space, while a thread is a smaller unit of execution that runs inside a process and shares its memory. Threads are faster to create and have lower overhead compared to processes, which makes them more efficient for concurrent tasks. In this assignment, we used threads instead of processes because all tasks share the same memory and need fast communication during scheduling. For example, in SchedulerSimulation.java, each process is executed using a Thread object and managed in a ready queue. Also, threads allow faster context switching and better performance when applying the Round-Robin scheduling algorithm.**
 
 [Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
 
