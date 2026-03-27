@@ -52,7 +52,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Challenges**: Had difficulty finding the correct place to update the ID and renaming the
 
-**Solution**: I watched a video and followed the steps
+**Solution**: I watched a video and followed the steps 
 
 **Time spent**: 25 minutes
 
