@@ -72,23 +72,23 @@ finishing entirely via runToCompletion().
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+Example 1: Web Server Handling Client Requests
 
-**Description**: 
-[Describe the real-world scenario or application]
+Description:
+A web server receives multiple requests from different users at the same time, such as loading web pages or submitting forms. Each request is handled by a separate thread, and all threads are placed in a ready queue to be executed by the CPU. Similar to our program, requests take turns executing just like processes P1, P2, and P3 in the output. If a request is not completed within its time quantum, it goes back to the queue with remaining processing time. This allows the server to serve many users efficiently without blocking.
 
-**Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Why Round-Robin works well here:
+Round-Robin ensures fairness by giving each request equal CPU time, preventing any single request from monopolizing resources. It improves responsiveness because users do not have to wait too long for their request to start processing. The predictable time quantum also helps maintain consistent performance across all requests. This behavior is similar to how our scheduler cycles through processes in a balanced way.
 
-### Example 2: [Name of application/scenario]
+⸻
 
-**Description**: 
-[Describe the real-world scenario or application]
+Example 2: Mobile Applications (Multitasking Apps)
 
-**Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Description:
+In mobile devices, multiple applications run simultaneously, such as messaging apps, music players, and background updates. Each app runs as a process with one or more threads, and the CPU switches between them rapidly. Like in our simulation, each task gets a small time quantum to execute before the next one runs. For example, a music app continues playing while a user browses social media because CPU time is shared among tasks. This creates the illusion that everything is running at the same time.
 
----
+Why Round-Robin works well here:
+Round-Robin scheduling is ideal because it provides fair CPU access to all applications, ensuring no app is completely blocked. It enhances user experience by keeping the system responsive and smooth. The frequent context switching allows background tasks to progress without interrupting foreground activities. This is similar to how processes in our program share CPU time equally and continue execution in cycles.
 
 ## Summary
 
