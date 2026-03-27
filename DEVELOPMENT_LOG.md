@@ -61,11 +61,11 @@ Document your development process as you work on the assignment. Add entries sho
 ### Entry 3 - [April 20, 2026, 3:30 PM]]
 **What I did**: add feature 1
 
-**Details**: 
+**Details**: Implemented feature 1 and save their progress
 
-**Challenges**: 
+**Challenges**: Had issues with data not saving correctly due to async timing
 
-**Solution**: 
+**Solution**: code review and added state refresh after saving
 
 **Time spent**: 30 minutes
 
