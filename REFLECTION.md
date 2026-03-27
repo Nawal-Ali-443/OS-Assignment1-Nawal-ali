@@ -7,7 +7,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ## Question 1: What did you learn about multithreading?
 
-**From this assignment, I learned how multithreading allows multiple processes to run concurrently using threads in Java. I understood how each process is executed using the Runnable interface and managed by the scheduler. I also learned how threads share CPU time using the Round-Robin algorithm and a fixed time quantum. Additionally, I became familiar with thread lifecycle methods such as start(), sleep(), and join(). Overall, this assignment helped me understand how multithreading improves system performance and responsiveness:**
+**From this assignment, I learned how multithreading allows multiple processes to run concurrently using threads in Java. I understood how each process is executed using the Runnable interface and managed by the scheduler. I also learned how threads share CPU time using the Round-Robin algorithm and a fixed time quantum. Additionally, I became familiar with thread lifecycle methods such as start(), sleep(), and join(). Overall, this assignment helped me understand how multithreading improves system performance and responsiveness**
 
 [Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
 
@@ -15,7 +15,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ## Question 2: What was the most challenging part of this assignment?
 
-**Your Answer:**
+**The most challenging part of this assignment was understanding how the Round-Robin scheduling algorithm works with multiple threads. It was difficult to track how processes are paused and then returned back to the ready queue. Managing the logic for re-queuing processes without breaking the program flow was also challenging. Another difficulty was ensuring that all threads execute correctly without conflicts. This part required careful thinking and testing to make sure everything worked as expected.**
 
 [Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
 
